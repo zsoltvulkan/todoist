@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RBHYPMg2xIsddhw8w+GLHsTpEul8+XL/ApdGRX2ZPrbUz1S6bXojH5zrt7382UP1Gu8D7q0kWdtQxYRWsDP04A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zsolt\\OneDrive\\Asztali gép\\todoist\\todiist\\todiist\\todiist.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zsolt\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
