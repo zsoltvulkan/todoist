@@ -1,0 +1,34 @@
+﻿version : '3'
+services:
+ web:
+  build: .
+
+  image: todiist:dev
+
+  ports:
+    - "5000:5000"
+
+
+  links:
+   - "database:todoist"
+
+  depends_on:
+   - database
+
+
+ database:
+
+  build:
+   context: "./db"
+   dockerfile: "./db/Dockerfile-db"
+
+   
+
+   environment:
+    - "MYSQL_ROOT_PASSWORD=root"
+    - "MYSQL_USER=zsolt"
+    - "MYSQL_PASSWORD=admin"
+    - "MYSQL_DATABASE=todoist"
+
+   volumes:
+    - "./db/Init.sql"
